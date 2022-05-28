@@ -1,12 +1,12 @@
 {
-   "name": "npm-template",
+   "name": "md-footer-cli",
    "version": "1.0.0",
    "description": "",
    "engines": {
       "node": ">=16"
    },
    "bin": {
-      "npm-template": "dist/bin/index.js"
+      "md-footer-cli": "dist/bin/index.js"
    },
    "files": [
       "dist"
@@ -25,13 +25,13 @@
    "keywords": [],
    "author": "Riku Kanayama (k_kuroguro)",
    "license": "MIT",
-   "homepage": "https://github.com/k-kuroguro/npm-template/blob/master/README.md",
+   "homepage": "https://github.com/k-kuroguro/md-footer-cli/blob/master/README.md",
    "repository": {
       "type": "git",
-      "url": "https://github.com/k-kuroguro/npm-template.git"
+      "url": "https://github.com/k-kuroguro/md-footer-cli.git"
    },
    "bugs": {
-      "url": "https://github.com/k-kuroguro/npm-template/issues"
+      "url": "https://github.com/k-kuroguro/md-footer-cli/issues"
    },
    "devDependencies": {
       "@jest/types": "^28.1.0",

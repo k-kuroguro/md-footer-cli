@@ -1,6 +1,6 @@
-# NPM Template
+# Md Footer CLI
 
-[![CI](https://github.com/k-kuroguro/npm-template/actions/workflows/main.yaml/badge.svg)](https://github.com/k-kuroguro/npm-template/actions/workflows/main.yaml)
+[![CI](https://github.com/k-kuroguro/md-footer-cli/actions/workflows/main.yaml/badge.svg)](https://github.com/k-kuroguro/md-footer-cli/actions/workflows/main.yaml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Setup
