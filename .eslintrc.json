@@ -17,7 +17,8 @@
                "camelCase",
                "PascalCase",
                "UPPER_CASE"
-            ]
+            ],
+            "leadingUnderscore": "allowDouble"
          }
       ],
       "@typescript-eslint/semi": "warn",
