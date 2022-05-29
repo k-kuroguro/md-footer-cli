@@ -1,11 +1,10 @@
 {
    "name": "md-footer-cli",
-   "version": "1.0.1",
+   "version": "1.0.2",
    "description": "Generate markdown footer links.",
    "engines": {
       "node": ">=16"
    },
-   "type": "module",
    "bin": {
       "md-footer-cli": "dist/bin/index.js"
    },

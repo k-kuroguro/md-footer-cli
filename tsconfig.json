@@ -12,10 +12,10 @@
          "node",
          "jest"
       ],
-      "outDir": "dist"
+      "outDir": "dist/bin"
    },
    "include": [
-      "src"
+      "src/bin"
    ],
    "exclude": [
       "src/**/__tests__/"
