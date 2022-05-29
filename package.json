@@ -1,7 +1,7 @@
 {
    "name": "md-footer-cli",
    "version": "1.0.0",
-   "description": "",
+   "description": "Generate markdown footer links.",
    "engines": {
       "node": ">=16"
    },
@@ -18,7 +18,9 @@
       "lint": "eslint src --ext ts",
       "test": "jest"
    },
-   "keywords": [],
+   "keywords": [
+      "markdown"
+   ],
    "author": "Riku Kanayama (k_kuroguro)",
    "license": "MIT",
    "homepage": "https://github.com/k-kuroguro/md-footer-cli/blob/master/README.md",
