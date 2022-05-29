@@ -5,10 +5,6 @@ import { readFileSync, writeFileSync } from 'fs';
 import { generateLinks } from 'md-footer';
 
 const handleError = (error: any, path: string) => {
-   if (!error?.code || !error?.message) {
-      console.log('Reason: Error occurred.');
-      return;
-   }
    switch (error.code) {
       case 'ENOENT':
          console.log(`Reason: ${path} is not found.`);
@@ -21,7 +17,9 @@ const handleError = (error: any, path: string) => {
          console.log(`Reason: No permission for access to ${path}.`);
          break;
       default:
-         console.log(`Reason: ${error.message}.`);
+         if (error.message) console.log(`Reason: ${error.message}.`);
+         else if (error.code) console.log(`Reason: ${error.code}.`);
+         else console.log('Reason: Error occurred.');
          break;
    }
 };
