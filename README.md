@@ -42,6 +42,10 @@ Output
 [Link1][1]
 [Link2][2]
 [Link1-2][1]
+
+
+[1]:http://www.example.com/link1
+[2]:http://www.example.com/link2
 ```
 
 # Related
