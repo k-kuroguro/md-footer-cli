@@ -13,12 +13,8 @@
    ],
    "scripts": {
       "prebuild": "rimraf dist",
-      "build": "run-p build:common build:esm",
-      "build:watch": "run-p build:common:watch build:esm:watch",
-      "build:common": "tsc",
-      "build:common:watch": "tsc -w",
-      "build:esm": "tsc -p tsconfig.esm.json",
-      "build:esm:watch": "tsc -w -p tsconfig.esm.json",
+      "build": "tsc",
+      "build:watch": "tsc-w",
       "lint": "eslint src --ext ts",
       "test": "jest"
    },
