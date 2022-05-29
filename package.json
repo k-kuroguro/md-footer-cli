@@ -1,6 +1,6 @@
 {
    "name": "md-footer-cli",
-   "version": "1.0.3",
+   "version": "1.0.4",
    "description": "Generate markdown footer links.",
    "engines": {
       "node": ">=16"
