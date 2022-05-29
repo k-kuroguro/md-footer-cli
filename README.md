@@ -26,8 +26,6 @@ Examples:
   index.js input.md output.md  generate footer links of input.md to output.md
 
 Copyright 2022 Riku Kanayama (k_kuroguro) All Rights Reserved.
-
-Not enough non-option arguments: got 0, need at least 1
 ```
 
 Input
