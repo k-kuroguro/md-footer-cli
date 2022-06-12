@@ -4,7 +4,7 @@
 [![License: MIT][3]][4]
 
 Generate markdown footer links.
-This library is rewritten [md-footer][5] by typescript.
+This library is rewritten from [md-footer][5] by typescript.
 
 # Install
 
